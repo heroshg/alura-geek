@@ -147,13 +147,13 @@ body {
 }
 
 .footer__imagem {
-    margin-left: 4rem;
+    margin: 0 4rem;
 }
 .footer__itens {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    margin-left: 5rem;
+    margin: 0 5rem;
 }
 .fale-conosco__titulo {
     font-weight: 700;
@@ -328,7 +328,7 @@ body {
         height: 450px;
     }
     .banner__caixa {
-        margin: 8.5rem 22rem;
+        margin: 8.5rem 23.5rem;
     }
     .banner__titulo {
         font-size: 52px;
