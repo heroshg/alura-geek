@@ -50,7 +50,7 @@ body {
     display: flex;
     flex-direction: column;
    justify-content: space-between;
-    margin: 5rem 1rem 4rem 1rem;
+    margin: 5rem 1rem 4rem 2rem;
     position: absolute;
 }
 
@@ -83,7 +83,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 1rem;
+    margin: 0 2rem;
 }
 
 .topo__link {
@@ -95,7 +95,7 @@ body {
 .secao__itens {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 1rem 1rem 1rem;
+    margin: 0 0rem 1rem 2rem;
     gap: 1rem;
 }
 .item-nome {
@@ -140,7 +140,7 @@ body {
 }
 
 .footer__fale-conosco {
-    margin: 1rem;
+    margin: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -153,14 +153,14 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    margin-left: 4rem;
+    margin-left: 5rem;
 }
 .fale-conosco__titulo {
     font-weight: 700;
 }
 
 .input__nome {
-    width: 328px;
+    width: 320px;
     height: 56px;
     border-radius: 0.25rem;
     border: 0;
@@ -168,7 +168,7 @@ body {
 }
 
 .input__escreva {
-    width: 328px;
+    width: 320px;
     height:82px;
     border: 0;
     border-radius: 0.25rem;
@@ -222,6 +222,7 @@ body {
     .container__principal {
         display: flex;
         gap: 8rem;
+        
     }
     .container__pesquisa {
         display: block;
@@ -242,7 +243,7 @@ body {
         height: 352px;
     }
     .banner__caixa {
-        padding: 2rem 1rem;
+        padding: 2rem 0rem;
         align-items: flex-start;
     }
     .banner__titulo {
@@ -260,31 +261,39 @@ body {
 
     .secao__itens {
         flex-wrap: nowrap; /* Evita que os itens quebrem para a próxima linha */
+        margin: 0 2rem;
     }
 
     .item-2 {
         display: none;
     }
     .item-imagem {
-        width: 172px;
+        width: 164px;
     }
     .footer__container {
         display: flex;
-        gap: 5rem;
+        gap: 7rem;
     }
     .footer__contato {
-        margin-top: 1rem;
+        margin: 1rem 0;
     }
     .footer__itens {
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
     }
+
+    .footer__imagem {
+        margin:0 2rem;
+    }
+    .footer__itens {
+        margin:0 2rem;
+    }
     .footer__fale-conosco {
         margin: 0;
     }
     .input__nome, .input__escreva {
-        width: 395px;
+        width: 380px;
         
     }
 
